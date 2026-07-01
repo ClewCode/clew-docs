@@ -6,6 +6,9 @@ export default defineConfig({
   base: '/',
   outDir: '../dist',
   cleanUrls: false,
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }]
+  ],
   themeConfig: {
     logo: 'https://clew-code.org/favicon.png',
     search: {
