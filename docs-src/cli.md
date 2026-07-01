@@ -14,13 +14,30 @@ Clew Code is an autonomous coding agent that runs directly in your terminal. It 
 
 Choose your preferred installation method below:
 
-### One-liner (Quick)
+### One-liner (Recommended)
+
+This script installs Bun automatically if missing, then installs the Clew Code CLI.
+
+**macOS / Linux:**
 ```bash
-# Install globally via npm
+curl -fsSL https://raw.githubusercontent.com/ClewCode/ClewCode/main/scripts/install.sh | bash
+```
+
+**Windows (PowerShell as Admin):**
+```powershell
+irm https://raw.githubusercontent.com/ClewCode/ClewCode/main/scripts/install.ps1 | iex
+```
+
+### With npm
+
+Requires Node.js 18+ and Bun 1.3+.
+
+```bash
 npm install -g clew-code
 ```
 
 ### From Source (Bun)
+
 ```bash
 # Clone the repository
 git clone https://github.com/ClewCode/ClewCode.git
@@ -161,3 +178,30 @@ Settings files are stored in your home directory under `~/.clew/`:
 
 *   `~/.clew/settings.json` — Shared global configurations, default models, and UI preferences.
 *   `~/.clew/settings.local.json` — Local overrides (private config and custom developer setups).
+
+### Example `settings.json`
+
+```json
+{
+  "defaultProvider": "deepseek",
+  "defaultModel": "deepseek-reasoner",
+  "theme": "dark",
+  "autoApprove": {
+    "readFiles": true,
+    "writeFiles": false,
+    "runCommands": false
+  },
+  "mcp": {
+    "servers": {
+      "filesystem": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "C:/Users/Admin/Projects"
+        ]
+      }
+    }
+  }
+}
+```
