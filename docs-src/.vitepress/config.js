@@ -7,6 +7,17 @@ export default defineConfig({
   outDir: '../dist',
   cleanUrls: false,
   themeConfig: {
+    logo: 'https://clew-code.org/favicon.png',
+    search: {
+      provider: 'local'
+    },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/ClewCode/ClewCode' }
+    ],
+    footer: {
+      message: 'Released under the GPL-3.0 License.',
+      copyright: 'Copyright © 2026 Clew Code Contributors'
+    },
     nav: [
       { text: 'Homepage', link: 'https://clew-code.org' },
       { text: 'API Docs', link: '/' },
