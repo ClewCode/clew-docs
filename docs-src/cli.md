@@ -119,7 +119,7 @@ Tasks are distributed across four isolated layers depending on your workflow:
 *   **Agent:** The root agent session coordinating permissions, UI, and active memory context.
 *   **Subagent:** Focus-oriented, short-lived child processes spawned in the background (typically read-only) to solve specific sub-tasks without cluttering your main session.
 *   **Peer:** Network-connected nodes coordinating LAN swarms.
-*   **Process Peer:** External CLI/Codex process delegation for running separate specialized model loops.
+*   **ExecAgent:** External CLI/Codex process delegation for running separate specialized model loops (formerly "Process Peer").
 
 ---
 
@@ -132,16 +132,12 @@ Control the session directly using terminal slash commands:
 | `/model` | Switch provider or model |
 | `/status` | Provider, session, context info |
 | `/doctor` | Diagnostics and provider health checks |
-| `/profile` | Personal profile mode (coding / command center) |
 | `/context` | Active context usage |
 | `/compact` | Compress conversation history + extract memories |
 | `/goal` | Track and verify overall task completion |
-| `/maxmode` | Toggle parallel candidate generation |
 | `/mcp` | Model Context Protocol server management |
 | `/code-review` | Review changed files for bugs |
-| `/simplify` | Cleanup-focused review |
 | `/plugin` | Plugin and hook management |
-| `/bridge` | Bridge mode configuration |
 | `/agent` | Background agent dispatch |
 | `/agents` | TUI Agent dashboard |
 | `/peer` | LAN peers: share, discover, swarm, dashboard |
@@ -151,6 +147,13 @@ Control the session directly using terminal slash commands:
 | `/memory` | SQLite memory system management |
 | `/tasks` | Curated task checklist |
 | `/effort` | Set reasoning effort |
+| `/rule` | View / toggle project rules |
+| `/workspace` | Link / unlink / list project repos |
+| `/cd` | Change working directory |
+| `/diff` | Show git diff |
+| `/files` | Explore project files |
+| `/branch` | Git branch operations |
+| `/fork` | Fork a conversation |
 | `/stats` | Session statistics |
 | `/guardian` | Auto-review mode using secondary LLM |
 | `/approve` | Override guardian denials |
@@ -168,7 +171,16 @@ Control the session directly using terminal slash commands:
 | `/session` | Session management |
 | `/theme` | Theme switcher |
 | `/skills` | List and manage skills |
-| `/login` | Sign in to Clew Gateway for cloud models and syncing |
+| `/ultracode` | UltraCode reasoning mode |
+| `/cost` | Token cost summary |
+| `/thinkback` | Browse past agent thoughts |
+| `/passes` | View test/code passes |
+| `/hooks` | Manage lifecycle hooks |
+| `/export` | Export conversation |
+| `/sandbox-toggle` | Toggle sandbox mode |
+| `/insights` | Generate session analysis report |
+
+Profile is set via `settings.json` (`"profile": "personal"`) — no slash command.
 
 ---
 
