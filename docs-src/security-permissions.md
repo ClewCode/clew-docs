@@ -82,3 +82,5 @@ Clew Code enforces several safety gates:
 ## Audit logging
 
 All tool calls are logged to `.session/` with timestamps, tool names, inputs, and results. Use these logs to review what the AI did after a session.
+
+An enterprise-grade SIEM-compatible NDJSON audit log is available in `src/services/auditLog/` with configurable rotation, filtering, and log levels.

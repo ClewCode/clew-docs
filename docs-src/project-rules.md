@@ -24,6 +24,9 @@ The AI automatically saves rules when it notices a repeated behavioral pattern. 
 | Command | Description |
 |---|---|
 | `/rule` | Show current project rules |
+| `/rule add <rule>` | Add a new rule |
+| `/rule edit <index> <rule>` | Edit a rule by index |
+| `/rule remove <index>` | Remove a rule by index |
 | `/rule off` | Disable rules (suppress injection without deleting them) |
 | `/rule on` | Re-enable disabled rules |
 

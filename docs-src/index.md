@@ -2,7 +2,7 @@
 
 **Open-source AI coding agent — local-first, multi-provider, in your terminal.**
 
-Clew Code is a terminal-native AI coding agent that routes work across 29+ LLM providers, 75+ built-in tools, persistent SQLite memory, and LAN peer machines — without locking your workflow to one AI.
+Clew Code is a terminal-native AI coding agent that routes work across 29+ LLM providers, 76+ built-in tools, persistent SQLite memory, and LAN peer machines — without locking your workflow to one AI.
 
 ---
 
@@ -16,10 +16,10 @@ Clew Code is a terminal-native AI coding agent that routes work across 29+ LLM p
 
 | Feature | Description |
 |---|---|
-| **29+ Providers** | OpenAI, DeepSeek, Groq, Anthropic, Google, Ollama (local), and 22 more. Switch mid-session with `/model`. |
+| **29+ Providers** | OpenAI, DeepSeek, Groq, Anthropic, Google, Ollama (local), OpenGateway, and 24 more. Switch mid-session with `/model`. |
 | **Persistent Memory** | SQLite-backed, MiMo-inspired store with importance ranking, Dream + Distill consolidation. |
-| **75+ Built-in Tools** | Read, Write, Edit, Grep, Bash, Browser, MCP, peer coordination, ExecAgent, and more. |
-| **LAN Peer Swarm** | Zero-config peer discovery over UDP multicast. Sync memory, delegate tasks, swarm commands. |
+| **76+ Built-in Tools** | Read, Write, Edit, Grep, Bash, Browser, MCP, peer coordination, ExecAgent, Goal, and more. |
+| **LAN Peer Swarm** | Zero-config peer discovery with UDP multicast. Sync memory, delegate tasks, swarm commands. |
 | **MCP + Plugins + Skills** | Model Context Protocol, lifecycle hooks, SKILL.md, and plugin marketplace. |
 | **Background Daemon** | Task queue, cron scheduling, dead-letter retries, memory maintenance. |
 
@@ -29,6 +29,7 @@ Clew Code is a terminal-native AI coding agent that routes work across 29+ LLM p
 - [Commands Reference](commands) — 100+ slash commands
 - [Configuration Guide](configuration) — Settings, hooks, permission modes
 - [Providers](providers) — All 29+ providers and environment variables
+- [CLI Reference](cli) — Full CLI usage, flags, sessions
 - [Security & Permissions](security-permissions) — Permission scopes, guardian system
 
 ### Concepts

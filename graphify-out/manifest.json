@@ -1,0 +1,137 @@
+{
+  ".clew/workspace.json": {
+    "mtime": 1783162137.5766068,
+    "ast_hash": "f46349d0e42c8992a8bca228e0725387",
+    "semantic_hash": ""
+  },
+  "docs-src/.vitepress/config.js": {
+    "mtime": 1783173022.396552,
+    "ast_hash": "a262b3df2c8c8653eec95b5ad9c1791d",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1782898825.661022,
+    "ast_hash": "8f719eca7d4493361257b8cd1b2c5dcb",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1782898772.9271557,
+    "ast_hash": "b1f6bb4129739fd7ec8529de1ccf7216",
+    "semantic_hash": ""
+  },
+  "docs-src/cli.md": {
+    "mtime": 1783568066.0498202,
+    "ast_hash": "1ef57654e39a1558cbb99e87d46e8a74",
+    "semantic_hash": ""
+  },
+  "docs-src/code-intelligence.md": {
+    "mtime": 1783568215.1248596,
+    "ast_hash": "63a4cecda1050aa0d4b60a1c5cca106e",
+    "semantic_hash": ""
+  },
+  "docs-src/commands.md": {
+    "mtime": 1783568095.3518603,
+    "ast_hash": "1911a11f6ed602828dd93e47d5ed374e",
+    "semantic_hash": ""
+  },
+  "docs-src/concepts-agents-subagents-peers.md": {
+    "mtime": 1783568215.1815686,
+    "ast_hash": "cea485175a9567d23184b8780a543360",
+    "semantic_hash": ""
+  },
+  "docs-src/configuration.md": {
+    "mtime": 1783172141.7708724,
+    "ast_hash": "21e85980df923580e1100b1dd039a2e8",
+    "semantic_hash": ""
+  },
+  "docs-src/contributing.md": {
+    "mtime": 1783172141.7702985,
+    "ast_hash": "613eec6e53bec0b6b36d7efbc29a2285",
+    "semantic_hash": ""
+  },
+  "docs-src/development.md": {
+    "mtime": 1783568215.0957537,
+    "ast_hash": "4d3a44ade3a7092d52c3b290dcc2fb53",
+    "semantic_hash": ""
+  },
+  "docs-src/features.md": {
+    "mtime": 1783568118.9084146,
+    "ast_hash": "d838e31a5a6b6d683fd73ebc1032ecb8",
+    "semantic_hash": ""
+  },
+  "docs-src/index.md": {
+    "mtime": 1783568035.4268074,
+    "ast_hash": "c10ef2e525d7d53f77ea5a788f79e92f",
+    "semantic_hash": ""
+  },
+  "docs-src/installation.md": {
+    "mtime": 1783568228.00354,
+    "ast_hash": "889142c1782939c9a255382dfd15ebbb",
+    "semantic_hash": ""
+  },
+  "docs-src/mcp.md": {
+    "mtime": 1783568137.21162,
+    "ast_hash": "84609a3a1611d87d6815efba2c86b2f1",
+    "semantic_hash": ""
+  },
+  "docs-src/memory-system.md": {
+    "mtime": 1783172141.773029,
+    "ast_hash": "d20004352780cb2e89cbd5028e2a6024",
+    "semantic_hash": ""
+  },
+  "docs-src/peer-to-peer.md": {
+    "mtime": 1783173658.2215936,
+    "ast_hash": "b97d14d6615bc3fc92bb328af7b3b37f",
+    "semantic_hash": ""
+  },
+  "docs-src/plugins.md": {
+    "mtime": 1783172141.7747805,
+    "ast_hash": "d66e75c6e3479d448e04d87a5fdd5b8e",
+    "semantic_hash": ""
+  },
+  "docs-src/profiles-coding-vs-personal.md": {
+    "mtime": 1783568159.3950236,
+    "ast_hash": "425a9954242304fa7f2ae43ab1b76ca6",
+    "semantic_hash": ""
+  },
+  "docs-src/project-rules.md": {
+    "mtime": 1783568159.3672502,
+    "ast_hash": "8236858714ec61089a309d843bd804b1",
+    "semantic_hash": ""
+  },
+  "docs-src/providers.md": {
+    "mtime": 1783568106.0412986,
+    "ast_hash": "845f0c9f0bf1658974fc5035008e485a",
+    "semantic_hash": ""
+  },
+  "docs-src/quick-start.md": {
+    "mtime": 1783568078.3876822,
+    "ast_hash": "29df8d98e5879ad505b218a35dfb89fd",
+    "semantic_hash": ""
+  },
+  "docs-src/security-permissions.md": {
+    "mtime": 1783568215.6524591,
+    "ast_hash": "5e7078896790adaf029152f1f9c5e07e",
+    "semantic_hash": ""
+  },
+  "docs-src/skills.md": {
+    "mtime": 1783568159.1113994,
+    "ast_hash": "cbc073d2e590f265bdf943200c115446",
+    "semantic_hash": ""
+  },
+  "docs-src/troubleshooting.md": {
+    "mtime": 1783568228.2619805,
+    "ast_hash": "eaabbfb9bd7d1bbfd6d9145e93e97c6b",
+    "semantic_hash": ""
+  },
+  "docs-src/workspace.md": {
+    "mtime": 1783568159.3819566,
+    "ast_hash": "bd3e37069f5ef3f01c293169620c90ae",
+    "semantic_hash": ""
+  },
+  "docs-src/public/favicon.png": {
+    "mtime": 1782710450.612029,
+    "ast_hash": "f7622485059df8270a74f368d61c1d85",
+    "semantic_hash": ""
+  }
+}

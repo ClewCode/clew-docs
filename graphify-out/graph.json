@@ -1,0 +1,4861 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "config.js",
+      "file_type": "code",
+      "source_file": "docs-src/.vitepress/config.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "vitepress_config",
+      "community": 20,
+      "norm_label": "config.js"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "package",
+      "community": 6,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "package_name",
+      "community": 6,
+      "norm_label": "name"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "package_module",
+      "community": 6,
+      "norm_label": "module"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "package_type",
+      "community": 6,
+      "norm_label": "type"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "package_private",
+      "community": 6,
+      "norm_label": "private"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 6,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "docs:dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "package_scripts_docs_dev",
+      "community": 6,
+      "norm_label": "docs:dev"
+    },
+    {
+      "label": "docs:build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "package_scripts_docs_build",
+      "community": 6,
+      "norm_label": "docs:build"
+    },
+    {
+      "label": "docs:preview",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "package_scripts_docs_preview",
+      "community": 6,
+      "norm_label": "docs:preview"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "package_devdependencies",
+      "community": 6,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@types/bun",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_bun",
+      "community": 6,
+      "norm_label": "@types/bun"
+    },
+    {
+      "label": "vitepress",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "package_devdependencies_vitepress",
+      "community": 6,
+      "norm_label": "vitepress"
+    },
+    {
+      "label": "peerDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "package_peerdependencies",
+      "community": 6,
+      "norm_label": "peerdependencies"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "package_peerdependencies_typescript",
+      "community": 6,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "tsconfig",
+      "community": 2,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions",
+      "community": 2,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_lib",
+      "community": 2,
+      "norm_label": "lib"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_target",
+      "community": 2,
+      "norm_label": "target"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_module",
+      "community": 2,
+      "norm_label": "module"
+    },
+    {
+      "label": "moduleDetection",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_moduledetection",
+      "community": 2,
+      "norm_label": "moduledetection"
+    },
+    {
+      "label": "jsx",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_jsx",
+      "community": 2,
+      "norm_label": "jsx"
+    },
+    {
+      "label": "allowJs",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_allowjs",
+      "community": 2,
+      "norm_label": "allowjs"
+    },
+    {
+      "label": "types",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_types",
+      "community": 2,
+      "norm_label": "types"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_moduleresolution",
+      "community": 2,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "allowImportingTsExtensions",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_allowimportingtsextensions",
+      "community": 2,
+      "norm_label": "allowimportingtsextensions"
+    },
+    {
+      "label": "verbatimModuleSyntax",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_verbatimmodulesyntax",
+      "community": 2,
+      "norm_label": "verbatimmodulesyntax"
+    },
+    {
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_noemit",
+      "community": 2,
+      "norm_label": "noemit"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_strict",
+      "community": 2,
+      "norm_label": "strict"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_skiplibcheck",
+      "community": 2,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "noFallthroughCasesInSwitch",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "community": 2,
+      "norm_label": "nofallthroughcasesinswitch"
+    },
+    {
+      "label": "noUncheckedIndexedAccess",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_nouncheckedindexedaccess",
+      "community": 2,
+      "norm_label": "nouncheckedindexedaccess"
+    },
+    {
+      "label": "noImplicitOverride",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_noimplicitoverride",
+      "community": 2,
+      "norm_label": "noimplicitoverride"
+    },
+    {
+      "label": "noUnusedLocals",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_nounusedlocals",
+      "community": 2,
+      "norm_label": "nounusedlocals"
+    },
+    {
+      "label": "noUnusedParameters",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_nounusedparameters",
+      "community": 2,
+      "norm_label": "nounusedparameters"
+    },
+    {
+      "label": "noPropertyAccessFromIndexSignature",
+      "file_type": "code",
+      "source_file": "tsconfig.json",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "tsconfig_compileroptions_nopropertyaccessfromindexsignature",
+      "community": 2,
+      "norm_label": "nopropertyaccessfromindexsignature"
+    },
+    {
+      "label": "cli.md",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_cli",
+      "community": 3,
+      "norm_label": "cli.md"
+    },
+    {
+      "label": "Clew CLI Docs",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_cli_clew_cli_docs",
+      "community": 3,
+      "norm_label": "clew cli docs"
+    },
+    {
+      "label": "Introduction",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "docs_src_cli_introduction",
+      "community": 3,
+      "norm_label": "introduction"
+    },
+    {
+      "label": "Installation",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_src_cli_installation",
+      "community": 3,
+      "norm_label": "installation"
+    },
+    {
+      "label": "One-liner (Recommended)",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "docs_src_cli_one_liner_recommended",
+      "community": 3,
+      "norm_label": "one-liner (recommended)"
+    },
+    {
+      "label": "With npm",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "docs_src_cli_with_npm",
+      "community": 3,
+      "norm_label": "with npm"
+    },
+    {
+      "label": "From Source (Bun)",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "docs_src_cli_from_source_bun",
+      "community": 3,
+      "norm_label": "from source (bun)"
+    },
+    {
+      "label": "First Run",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "docs_src_cli_first_run",
+      "community": 3,
+      "norm_label": "first run"
+    },
+    {
+      "label": "29 Providers",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "docs_src_cli_29_providers",
+      "community": 3,
+      "norm_label": "29 providers"
+    },
+    {
+      "label": "Persistent Memory",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L97",
+      "_origin": "ast",
+      "id": "docs_src_cli_persistent_memory",
+      "community": 3,
+      "norm_label": "persistent memory"
+    },
+    {
+      "label": "LAN Peer Swarm",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L108",
+      "_origin": "ast",
+      "id": "docs_src_cli_lan_peer_swarm",
+      "community": 3,
+      "norm_label": "lan peer swarm"
+    },
+    {
+      "label": "Execution Layers",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "docs_src_cli_execution_layers",
+      "community": 3,
+      "norm_label": "execution layers"
+    },
+    {
+      "label": "Slash Commands",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L130",
+      "_origin": "ast",
+      "id": "docs_src_cli_slash_commands",
+      "community": 3,
+      "norm_label": "slash commands"
+    },
+    {
+      "label": "Configuration",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L192",
+      "_origin": "ast",
+      "id": "docs_src_cli_configuration",
+      "community": 3,
+      "norm_label": "configuration"
+    },
+    {
+      "label": "Example `settings.json`",
+      "file_type": "document",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L201",
+      "_origin": "ast",
+      "id": "docs_src_cli_example_settings_json",
+      "community": 3,
+      "norm_label": "example `settings.json`"
+    },
+    {
+      "label": "code-intelligence.md",
+      "file_type": "document",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_code_intelligence",
+      "community": 10,
+      "norm_label": "code-intelligence.md"
+    },
+    {
+      "label": "Code Intelligence & Exploration",
+      "file_type": "document",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_code_intelligence_code_intelligence_exploration",
+      "community": 10,
+      "norm_label": "code intelligence & exploration"
+    },
+    {
+      "label": "1. Graphify (Semantic Graph)",
+      "file_type": "document",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "docs_src_code_intelligence_1_graphify_semantic_graph",
+      "community": 10,
+      "norm_label": "1. graphify (semantic graph)"
+    },
+    {
+      "label": "Local CLI Commands",
+      "file_type": "document",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "docs_src_code_intelligence_local_cli_commands",
+      "community": 10,
+      "norm_label": "local cli commands"
+    },
+    {
+      "label": "How the AI Agent Uses Graphify",
+      "file_type": "document",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "docs_src_code_intelligence_how_the_ai_agent_uses_graphify",
+      "community": 10,
+      "norm_label": "how the ai agent uses graphify"
+    },
+    {
+      "label": "Prompt Examples for the User",
+      "file_type": "document",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "docs_src_code_intelligence_prompt_examples_for_the_user",
+      "community": 10,
+      "norm_label": "prompt examples for the user"
+    },
+    {
+      "label": "2. CodeGraph (Call Graph & AST Analyzer)",
+      "file_type": "document",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "docs_src_code_intelligence_2_codegraph_call_graph_ast_analyzer",
+      "community": 10,
+      "norm_label": "2. codegraph (call graph & ast analyzer)"
+    },
+    {
+      "label": "Local CLI Commands",
+      "file_type": "document",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "docs_src_code_intelligence_local_cli_commands_58",
+      "community": 10,
+      "norm_label": "local cli commands"
+    },
+    {
+      "label": "How the AI Agent Uses CodeGraph",
+      "file_type": "document",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "docs_src_code_intelligence_how_the_ai_agent_uses_codegraph",
+      "community": 10,
+      "norm_label": "how the ai agent uses codegraph"
+    },
+    {
+      "label": "Prompt Examples for the User",
+      "file_type": "document",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L107",
+      "_origin": "ast",
+      "id": "docs_src_code_intelligence_prompt_examples_for_the_user_107",
+      "community": 10,
+      "norm_label": "prompt examples for the user"
+    },
+    {
+      "label": "Summary of Differences",
+      "file_type": "document",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "docs_src_code_intelligence_summary_of_differences",
+      "community": 10,
+      "norm_label": "summary of differences"
+    },
+    {
+      "label": "commands.md",
+      "file_type": "document",
+      "source_file": "docs-src/commands.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_commands",
+      "community": 0,
+      "norm_label": "commands.md"
+    },
+    {
+      "label": "Commands",
+      "file_type": "document",
+      "source_file": "docs-src/commands.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_commands_commands",
+      "community": 0,
+      "norm_label": "commands"
+    },
+    {
+      "label": "concepts-agents-subagents-peers.md",
+      "file_type": "document",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_concepts_agents_subagents_peers",
+      "community": 12,
+      "norm_label": "concepts-agents-subagents-peers.md"
+    },
+    {
+      "label": "Concepts: Agents, Subagents, and Peers",
+      "file_type": "document",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_concepts_agents_subagents_peers_concepts_agents_subagents_and_peers",
+      "community": 12,
+      "norm_label": "concepts: agents, subagents, and peers"
+    },
+    {
+      "label": "Agent",
+      "file_type": "document",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_src_concepts_agents_subagents_peers_agent",
+      "community": 12,
+      "norm_label": "agent"
+    },
+    {
+      "label": "Subagent",
+      "file_type": "document",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "docs_src_concepts_agents_subagents_peers_subagent",
+      "community": 12,
+      "norm_label": "subagent"
+    },
+    {
+      "label": "Teammate / Swarm",
+      "file_type": "document",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_src_concepts_agents_subagents_peers_teammate_swarm",
+      "community": 12,
+      "norm_label": "teammate / swarm"
+    },
+    {
+      "label": "LAN Peer",
+      "file_type": "document",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "docs_src_concepts_agents_subagents_peers_lan_peer",
+      "community": 12,
+      "norm_label": "lan peer"
+    },
+    {
+      "label": "ExecAgent",
+      "file_type": "document",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_src_concepts_agents_subagents_peers_execagent",
+      "community": 12,
+      "norm_label": "execagent"
+    },
+    {
+      "label": "Typical flows",
+      "file_type": "document",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "docs_src_concepts_agents_subagents_peers_typical_flows",
+      "community": 12,
+      "norm_label": "typical flows"
+    },
+    {
+      "label": "Runtime concepts",
+      "file_type": "document",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "docs_src_concepts_agents_subagents_peers_runtime_concepts",
+      "community": 12,
+      "norm_label": "runtime concepts"
+    },
+    {
+      "label": "configuration.md",
+      "file_type": "document",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_configuration",
+      "community": 0,
+      "norm_label": "configuration.md"
+    },
+    {
+      "label": "Configuration",
+      "file_type": "document",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_configuration_configuration",
+      "community": 7,
+      "norm_label": "configuration"
+    },
+    {
+      "label": "Settings files",
+      "file_type": "document",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_src_configuration_settings_files",
+      "community": 7,
+      "norm_label": "settings files"
+    },
+    {
+      "label": "Example settings.json",
+      "file_type": "document",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "docs_src_configuration_example_settings_json",
+      "community": 7,
+      "norm_label": "example settings.json"
+    },
+    {
+      "label": "Local overrides",
+      "file_type": "document",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "docs_src_configuration_local_overrides",
+      "community": 7,
+      "norm_label": "local overrides"
+    },
+    {
+      "label": "Environment variables",
+      "file_type": "document",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "docs_src_configuration_environment_variables",
+      "community": 7,
+      "norm_label": "environment variables"
+    },
+    {
+      "label": "Provider API keys",
+      "file_type": "document",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "docs_src_configuration_provider_api_keys",
+      "community": 7,
+      "norm_label": "provider api keys"
+    },
+    {
+      "label": "Clew Code settings",
+      "file_type": "document",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "docs_src_configuration_clew_code_settings",
+      "community": 7,
+      "norm_label": "clew code settings"
+    },
+    {
+      "label": "Hooks",
+      "file_type": "document",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "docs_src_configuration_hooks",
+      "community": 7,
+      "norm_label": "hooks"
+    },
+    {
+      "label": "Example hook",
+      "file_type": "document",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "docs_src_configuration_example_hook",
+      "community": 7,
+      "norm_label": "example hook"
+    },
+    {
+      "label": "Permission modes",
+      "file_type": "document",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L90",
+      "_origin": "ast",
+      "id": "docs_src_configuration_permission_modes",
+      "community": 7,
+      "norm_label": "permission modes"
+    },
+    {
+      "label": "Theme",
+      "file_type": "document",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "docs_src_configuration_theme",
+      "community": 7,
+      "norm_label": "theme"
+    },
+    {
+      "label": "Per-project configuration",
+      "file_type": "document",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L115",
+      "_origin": "ast",
+      "id": "docs_src_configuration_per_project_configuration",
+      "community": 7,
+      "norm_label": "per-project configuration"
+    },
+    {
+      "label": "contributing.md",
+      "file_type": "document",
+      "source_file": "docs-src/contributing.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_contributing",
+      "community": 0,
+      "norm_label": "contributing.md"
+    },
+    {
+      "label": "Contributing",
+      "file_type": "document",
+      "source_file": "docs-src/contributing.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_contributing_contributing",
+      "community": 0,
+      "norm_label": "contributing"
+    },
+    {
+      "label": "Good first issues",
+      "file_type": "document",
+      "source_file": "docs-src/contributing.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "docs_src_contributing_good_first_issues",
+      "community": 0,
+      "norm_label": "good first issues"
+    },
+    {
+      "label": "Release",
+      "file_type": "document",
+      "source_file": "docs-src/contributing.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "docs_src_contributing_release",
+      "community": 0,
+      "norm_label": "release"
+    },
+    {
+      "label": "development.md",
+      "file_type": "document",
+      "source_file": "docs-src/development.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_development",
+      "community": 18,
+      "norm_label": "development.md"
+    },
+    {
+      "label": "Development",
+      "file_type": "document",
+      "source_file": "docs-src/development.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_development_development",
+      "community": 18,
+      "norm_label": "development"
+    },
+    {
+      "label": "Commands",
+      "file_type": "document",
+      "source_file": "docs-src/development.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_src_development_commands",
+      "community": 18,
+      "norm_label": "commands"
+    },
+    {
+      "label": "Project layout",
+      "file_type": "document",
+      "source_file": "docs-src/development.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "docs_src_development_project_layout",
+      "community": 18,
+      "norm_label": "project layout"
+    },
+    {
+      "label": "Architecture",
+      "file_type": "document",
+      "source_file": "docs-src/development.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "docs_src_development_architecture",
+      "community": 18,
+      "norm_label": "architecture"
+    },
+    {
+      "label": "Before committing",
+      "file_type": "document",
+      "source_file": "docs-src/development.md",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "docs_src_development_before_committing",
+      "community": 18,
+      "norm_label": "before committing"
+    },
+    {
+      "label": "features.md",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_features",
+      "community": 4,
+      "norm_label": "features.md"
+    },
+    {
+      "label": "Features",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_features_features",
+      "community": 4,
+      "norm_label": "features"
+    },
+    {
+      "label": "29 Providers",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_src_features_29_providers",
+      "community": 4,
+      "norm_label": "29 providers"
+    },
+    {
+      "label": "Memory System (MiMo-inspired)",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "docs_src_features_memory_system_mimo_inspired",
+      "community": 4,
+      "norm_label": "memory system (mimo-inspired)"
+    },
+    {
+      "label": "Peer-to-Peer LAN",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "docs_src_features_peer_to_peer_lan",
+      "community": 4,
+      "norm_label": "peer-to-peer lan"
+    },
+    {
+      "label": "Autonomous Agent Loop",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_src_features_autonomous_agent_loop",
+      "community": 4,
+      "norm_label": "autonomous agent loop"
+    },
+    {
+      "label": "76+ Built-in Tools",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "docs_src_features_76_built_in_tools",
+      "community": 4,
+      "norm_label": "76+ built-in tools"
+    },
+    {
+      "label": "Project Rules",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "docs_src_features_project_rules",
+      "community": 4,
+      "norm_label": "project rules"
+    },
+    {
+      "label": "Workspace Linking",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "docs_src_features_workspace_linking",
+      "community": 4,
+      "norm_label": "workspace linking"
+    },
+    {
+      "label": "Goal System",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "docs_src_features_goal_system",
+      "community": 4,
+      "norm_label": "goal system"
+    },
+    {
+      "label": "Max Mode",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "docs_src_features_max_mode",
+      "community": 4,
+      "norm_label": "max mode"
+    },
+    {
+      "label": "Structured Checkpoints",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "docs_src_features_structured_checkpoints",
+      "community": 4,
+      "norm_label": "structured checkpoints"
+    },
+    {
+      "label": "MCP \u2014 Model Context Protocol",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "docs_src_features_mcp_model_context_protocol",
+      "community": 4,
+      "norm_label": "mcp \u2014 model context protocol"
+    },
+    {
+      "label": "Skills, Plugins, Hooks",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "docs_src_features_skills_plugins_hooks",
+      "community": 4,
+      "norm_label": "skills, plugins, hooks"
+    },
+    {
+      "label": "8 Permission Modes",
+      "file_type": "document",
+      "source_file": "docs-src/features.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "docs_src_features_8_permission_modes",
+      "community": 4,
+      "norm_label": "8 permission modes"
+    },
+    {
+      "label": "index.md",
+      "file_type": "document",
+      "source_file": "docs-src/index.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_index",
+      "community": 0,
+      "norm_label": "index.md"
+    },
+    {
+      "label": "Clew Code Docs",
+      "file_type": "document",
+      "source_file": "docs-src/index.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_index_clew_code_docs",
+      "community": 13,
+      "norm_label": "clew code docs"
+    },
+    {
+      "label": "Getting Started",
+      "file_type": "document",
+      "source_file": "docs-src/index.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_src_index_getting_started",
+      "community": 13,
+      "norm_label": "getting started"
+    },
+    {
+      "label": "Key Features",
+      "file_type": "document",
+      "source_file": "docs-src/index.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_src_index_key_features",
+      "community": 13,
+      "norm_label": "key features"
+    },
+    {
+      "label": "All Documentation",
+      "file_type": "document",
+      "source_file": "docs-src/index.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_src_index_all_documentation",
+      "community": 13,
+      "norm_label": "all documentation"
+    },
+    {
+      "label": "Reference",
+      "file_type": "document",
+      "source_file": "docs-src/index.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "docs_src_index_reference",
+      "community": 13,
+      "norm_label": "reference"
+    },
+    {
+      "label": "Concepts",
+      "file_type": "document",
+      "source_file": "docs-src/index.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "docs_src_index_concepts",
+      "community": 13,
+      "norm_label": "concepts"
+    },
+    {
+      "label": "Extending",
+      "file_type": "document",
+      "source_file": "docs-src/index.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "docs_src_index_extending",
+      "community": 13,
+      "norm_label": "extending"
+    },
+    {
+      "label": "Development",
+      "file_type": "document",
+      "source_file": "docs-src/index.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "docs_src_index_development",
+      "community": 13,
+      "norm_label": "development"
+    },
+    {
+      "label": "Links",
+      "file_type": "document",
+      "source_file": "docs-src/index.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "docs_src_index_links",
+      "community": 13,
+      "norm_label": "links"
+    },
+    {
+      "label": "installation.md",
+      "file_type": "document",
+      "source_file": "docs-src/installation.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_installation",
+      "community": 0,
+      "norm_label": "installation.md"
+    },
+    {
+      "label": "Installation",
+      "file_type": "document",
+      "source_file": "docs-src/installation.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_installation_installation",
+      "community": 0,
+      "norm_label": "installation"
+    },
+    {
+      "label": "One-liner (recommended)",
+      "file_type": "document",
+      "source_file": "docs-src/installation.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_src_installation_one_liner_recommended",
+      "community": 0,
+      "norm_label": "one-liner (recommended)"
+    },
+    {
+      "label": "With npm",
+      "file_type": "document",
+      "source_file": "docs-src/installation.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "docs_src_installation_with_npm",
+      "community": 0,
+      "norm_label": "with npm"
+    },
+    {
+      "label": "Build from source",
+      "file_type": "document",
+      "source_file": "docs-src/installation.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "docs_src_installation_build_from_source",
+      "community": 0,
+      "norm_label": "build from source"
+    },
+    {
+      "label": "mcp.md",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_mcp",
+      "community": 5,
+      "norm_label": "mcp.md"
+    },
+    {
+      "label": "MCP \u2014 Model Context Protocol",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_mcp_mcp_model_context_protocol",
+      "community": 5,
+      "norm_label": "mcp \u2014 model context protocol"
+    },
+    {
+      "label": "How MCP works",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_src_mcp_how_mcp_works",
+      "community": 5,
+      "norm_label": "how mcp works"
+    },
+    {
+      "label": "Supported transports",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "docs_src_mcp_supported_transports",
+      "community": 5,
+      "norm_label": "supported transports"
+    },
+    {
+      "label": "Configuring MCP servers",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "docs_src_mcp_configuring_mcp_servers",
+      "community": 5,
+      "norm_label": "configuring mcp servers"
+    },
+    {
+      "label": "Via `.mcp.json` (project root)",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "docs_src_mcp_via_mcp_json_project_root",
+      "community": 5,
+      "norm_label": "via `.mcp.json` (project root)"
+    },
+    {
+      "label": "Via settings files",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "docs_src_mcp_via_settings_files",
+      "community": 5,
+      "norm_label": "via settings files"
+    },
+    {
+      "label": "stdio servers",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "docs_src_mcp_stdio_servers",
+      "community": 5,
+      "norm_label": "stdio servers"
+    },
+    {
+      "label": "SSE / HTTP servers",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "docs_src_mcp_sse_http_servers",
+      "community": 5,
+      "norm_label": "sse / http servers"
+    },
+    {
+      "label": "Managing MCP servers",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "docs_src_mcp_managing_mcp_servers",
+      "community": 5,
+      "norm_label": "managing mcp servers"
+    },
+    {
+      "label": "In-session commands",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L101",
+      "_origin": "ast",
+      "id": "docs_src_mcp_in_session_commands",
+      "community": 5,
+      "norm_label": "in-session commands"
+    },
+    {
+      "label": "Startup behaviour",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L110",
+      "_origin": "ast",
+      "id": "docs_src_mcp_startup_behaviour",
+      "community": 5,
+      "norm_label": "startup behaviour"
+    },
+    {
+      "label": "MCP tools in action",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L119",
+      "_origin": "ast",
+      "id": "docs_src_mcp_mcp_tools_in_action",
+      "community": 5,
+      "norm_label": "mcp tools in action"
+    },
+    {
+      "label": "Security",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L127",
+      "_origin": "ast",
+      "id": "docs_src_mcp_security",
+      "community": 5,
+      "norm_label": "security"
+    },
+    {
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L134",
+      "_origin": "ast",
+      "id": "docs_src_mcp_troubleshooting",
+      "community": 5,
+      "norm_label": "troubleshooting"
+    },
+    {
+      "label": "memory-system.md",
+      "file_type": "document",
+      "source_file": "docs-src/memory-system.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_memory_system",
+      "community": 16,
+      "norm_label": "memory-system.md"
+    },
+    {
+      "label": "Memory System",
+      "file_type": "document",
+      "source_file": "docs-src/memory-system.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_memory_system_memory_system",
+      "community": 16,
+      "norm_label": "memory system"
+    },
+    {
+      "label": "Core concepts",
+      "file_type": "document",
+      "source_file": "docs-src/memory-system.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_src_memory_system_core_concepts",
+      "community": 16,
+      "norm_label": "core concepts"
+    },
+    {
+      "label": "Memory hierarchy",
+      "file_type": "document",
+      "source_file": "docs-src/memory-system.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "docs_src_memory_system_memory_hierarchy",
+      "community": 16,
+      "norm_label": "memory hierarchy"
+    },
+    {
+      "label": "Commands",
+      "file_type": "document",
+      "source_file": "docs-src/memory-system.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "docs_src_memory_system_commands",
+      "community": 16,
+      "norm_label": "commands"
+    },
+    {
+      "label": "Auto-consolidation",
+      "file_type": "document",
+      "source_file": "docs-src/memory-system.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "docs_src_memory_system_auto_consolidation",
+      "community": 16,
+      "norm_label": "auto-consolidation"
+    },
+    {
+      "label": "Cross-session",
+      "file_type": "document",
+      "source_file": "docs-src/memory-system.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "docs_src_memory_system_cross_session",
+      "community": 16,
+      "norm_label": "cross-session"
+    },
+    {
+      "label": "peer-to-peer.md",
+      "file_type": "document",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_peer_to_peer",
+      "community": 8,
+      "norm_label": "peer-to-peer.md"
+    },
+    {
+      "label": "Peer-to-Peer LAN",
+      "file_type": "document",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_peer_to_peer_peer_to_peer_lan",
+      "community": 8,
+      "norm_label": "peer-to-peer lan"
+    },
+    {
+      "label": "Discovery",
+      "file_type": "document",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_src_peer_to_peer_discovery",
+      "community": 8,
+      "norm_label": "discovery"
+    },
+    {
+      "label": "Commands",
+      "file_type": "document",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "docs_src_peer_to_peer_commands",
+      "community": 8,
+      "norm_label": "commands"
+    },
+    {
+      "label": "15+ AI tools",
+      "file_type": "document",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "docs_src_peer_to_peer_15_ai_tools",
+      "community": 8,
+      "norm_label": "15+ ai tools"
+    },
+    {
+      "label": "Swarm execution",
+      "file_type": "document",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "docs_src_peer_to_peer_swarm_execution",
+      "community": 8,
+      "norm_label": "swarm execution"
+    },
+    {
+      "label": "Task persistence",
+      "file_type": "document",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "docs_src_peer_to_peer_task_persistence",
+      "community": 8,
+      "norm_label": "task persistence"
+    },
+    {
+      "label": "Worktree isolation",
+      "file_type": "document",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "docs_src_peer_to_peer_worktree_isolation",
+      "community": 8,
+      "norm_label": "worktree isolation"
+    },
+    {
+      "label": "Task dependencies",
+      "file_type": "document",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "docs_src_peer_to_peer_task_dependencies",
+      "community": 8,
+      "norm_label": "task dependencies"
+    },
+    {
+      "label": "Concurrency",
+      "file_type": "document",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "docs_src_peer_to_peer_concurrency",
+      "community": 8,
+      "norm_label": "concurrency"
+    },
+    {
+      "label": "Message broker",
+      "file_type": "document",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "docs_src_peer_to_peer_message_broker",
+      "community": 8,
+      "norm_label": "message broker"
+    },
+    {
+      "label": "Peer memory sync",
+      "file_type": "document",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "docs_src_peer_to_peer_peer_memory_sync",
+      "community": 8,
+      "norm_label": "peer memory sync"
+    },
+    {
+      "label": "plugins.md",
+      "file_type": "document",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_plugins",
+      "community": 9,
+      "norm_label": "plugins.md"
+    },
+    {
+      "label": "Plugins",
+      "file_type": "document",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_plugins_plugins",
+      "community": 9,
+      "norm_label": "plugins"
+    },
+    {
+      "label": "Plugin lifecycle",
+      "file_type": "document",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_src_plugins_plugin_lifecycle",
+      "community": 9,
+      "norm_label": "plugin lifecycle"
+    },
+    {
+      "label": "Hook types",
+      "file_type": "document",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "docs_src_plugins_hook_types",
+      "community": 9,
+      "norm_label": "hook types"
+    },
+    {
+      "label": "Plugin manifest",
+      "file_type": "document",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "docs_src_plugins_plugin_manifest",
+      "community": 9,
+      "norm_label": "plugin manifest"
+    },
+    {
+      "label": "Installing plugins",
+      "file_type": "document",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "docs_src_plugins_installing_plugins",
+      "community": 9,
+      "norm_label": "installing plugins"
+    },
+    {
+      "label": "From marketplace",
+      "file_type": "document",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "docs_src_plugins_from_marketplace",
+      "community": 9,
+      "norm_label": "from marketplace"
+    },
+    {
+      "label": "Local development",
+      "file_type": "document",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "docs_src_plugins_local_development",
+      "community": 9,
+      "norm_label": "local development"
+    },
+    {
+      "label": "Creating a plugin",
+      "file_type": "document",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "docs_src_plugins_creating_a_plugin",
+      "community": 9,
+      "norm_label": "creating a plugin"
+    },
+    {
+      "label": "Plugin commands",
+      "file_type": "document",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "docs_src_plugins_plugin_commands",
+      "community": 9,
+      "norm_label": "plugin commands"
+    },
+    {
+      "label": "Security",
+      "file_type": "document",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "docs_src_plugins_security",
+      "community": 9,
+      "norm_label": "security"
+    },
+    {
+      "label": "Marketplace",
+      "file_type": "document",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "docs_src_plugins_marketplace",
+      "community": 9,
+      "norm_label": "marketplace"
+    },
+    {
+      "label": "profiles-coding-vs-personal.md",
+      "file_type": "document",
+      "source_file": "docs-src/profiles-coding-vs-personal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_profiles_coding_vs_personal",
+      "community": 17,
+      "norm_label": "profiles-coding-vs-personal.md"
+    },
+    {
+      "label": "Profiles: Coding vs Personal",
+      "file_type": "document",
+      "source_file": "docs-src/profiles-coding-vs-personal.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_profiles_coding_vs_personal_profiles_coding_vs_personal",
+      "community": 17,
+      "norm_label": "profiles: coding vs personal"
+    },
+    {
+      "label": "Coding profile (default)",
+      "file_type": "document",
+      "source_file": "docs-src/profiles-coding-vs-personal.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_src_profiles_coding_vs_personal_coding_profile_default",
+      "community": 17,
+      "norm_label": "coding profile (default)"
+    },
+    {
+      "label": "Personal profile",
+      "file_type": "document",
+      "source_file": "docs-src/profiles-coding-vs-personal.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_src_profiles_coding_vs_personal_personal_profile",
+      "community": 17,
+      "norm_label": "personal profile"
+    },
+    {
+      "label": "How delegation works",
+      "file_type": "document",
+      "source_file": "docs-src/profiles-coding-vs-personal.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "docs_src_profiles_coding_vs_personal_how_delegation_works",
+      "community": 17,
+      "norm_label": "how delegation works"
+    },
+    {
+      "label": "Codex / ExecAgent",
+      "file_type": "document",
+      "source_file": "docs-src/profiles-coding-vs-personal.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "docs_src_profiles_coding_vs_personal_codex_execagent",
+      "community": 17,
+      "norm_label": "codex / execagent"
+    },
+    {
+      "label": "Additional capabilities",
+      "file_type": "document",
+      "source_file": "docs-src/profiles-coding-vs-personal.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "docs_src_profiles_coding_vs_personal_additional_capabilities",
+      "community": 17,
+      "norm_label": "additional capabilities"
+    },
+    {
+      "label": "project-rules.md",
+      "file_type": "document",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_project_rules",
+      "community": 14,
+      "norm_label": "project-rules.md"
+    },
+    {
+      "label": "Project Rules",
+      "file_type": "document",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_project_rules_project_rules",
+      "community": 14,
+      "norm_label": "project rules"
+    },
+    {
+      "label": "How it works",
+      "file_type": "document",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_src_project_rules_how_it_works",
+      "community": 14,
+      "norm_label": "how it works"
+    },
+    {
+      "label": "Commands",
+      "file_type": "document",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "docs_src_project_rules_commands",
+      "community": 14,
+      "norm_label": "commands"
+    },
+    {
+      "label": "AI tool",
+      "file_type": "document",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "docs_src_project_rules_ai_tool",
+      "community": 14,
+      "norm_label": "ai tool"
+    },
+    {
+      "label": "Status indicator",
+      "file_type": "document",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "docs_src_project_rules_status_indicator",
+      "community": 14,
+      "norm_label": "status indicator"
+    },
+    {
+      "label": "Toggling",
+      "file_type": "document",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "docs_src_project_rules_toggling",
+      "community": 14,
+      "norm_label": "toggling"
+    },
+    {
+      "label": "File location",
+      "file_type": "document",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "docs_src_project_rules_file_location",
+      "community": 14,
+      "norm_label": "file location"
+    },
+    {
+      "label": "providers.md",
+      "file_type": "document",
+      "source_file": "docs-src/providers.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_providers",
+      "community": 0,
+      "norm_label": "providers.md"
+    },
+    {
+      "label": "Providers",
+      "file_type": "document",
+      "source_file": "docs-src/providers.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_providers_providers",
+      "community": 19,
+      "norm_label": "providers"
+    },
+    {
+      "label": "Quick setup",
+      "file_type": "document",
+      "source_file": "docs-src/providers.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_src_providers_quick_setup",
+      "community": 19,
+      "norm_label": "quick setup"
+    },
+    {
+      "label": "All providers",
+      "file_type": "document",
+      "source_file": "docs-src/providers.md",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "docs_src_providers_all_providers",
+      "community": 19,
+      "norm_label": "all providers"
+    },
+    {
+      "label": "Provider features",
+      "file_type": "document",
+      "source_file": "docs-src/providers.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "docs_src_providers_provider_features",
+      "community": 19,
+      "norm_label": "provider features"
+    },
+    {
+      "label": "quick-start.md",
+      "file_type": "document",
+      "source_file": "docs-src/quick-start.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_quick_start",
+      "community": 0,
+      "norm_label": "quick-start.md"
+    },
+    {
+      "label": "Quick Start",
+      "file_type": "document",
+      "source_file": "docs-src/quick-start.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_quick_start_quick_start",
+      "community": 0,
+      "norm_label": "quick start"
+    },
+    {
+      "label": "Useful commands",
+      "file_type": "document",
+      "source_file": "docs-src/quick-start.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "docs_src_quick_start_useful_commands",
+      "community": 0,
+      "norm_label": "useful commands"
+    },
+    {
+      "label": "One-shot mode",
+      "file_type": "document",
+      "source_file": "docs-src/quick-start.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "docs_src_quick_start_one_shot_mode",
+      "community": 0,
+      "norm_label": "one-shot mode"
+    },
+    {
+      "label": "Resume last session",
+      "file_type": "document",
+      "source_file": "docs-src/quick-start.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "docs_src_quick_start_resume_last_session",
+      "community": 0,
+      "norm_label": "resume last session"
+    },
+    {
+      "label": "security-permissions.md",
+      "file_type": "document",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_security_permissions",
+      "community": 15,
+      "norm_label": "security-permissions.md"
+    },
+    {
+      "label": "Security & Permissions",
+      "file_type": "document",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_security_permissions_security_permissions",
+      "community": 15,
+      "norm_label": "security & permissions"
+    },
+    {
+      "label": "Permission modes",
+      "file_type": "document",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_src_security_permissions_permission_modes",
+      "community": 15,
+      "norm_label": "permission modes"
+    },
+    {
+      "label": "Guardian mode",
+      "file_type": "document",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "docs_src_security_permissions_guardian_mode",
+      "community": 15,
+      "norm_label": "guardian mode"
+    },
+    {
+      "label": "Tool permissions",
+      "file_type": "document",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "docs_src_security_permissions_tool_permissions",
+      "community": 15,
+      "norm_label": "tool permissions"
+    },
+    {
+      "label": "Safety gates",
+      "file_type": "document",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "docs_src_security_permissions_safety_gates",
+      "community": 15,
+      "norm_label": "safety gates"
+    },
+    {
+      "label": "Best practices",
+      "file_type": "document",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L74",
+      "_origin": "ast",
+      "id": "docs_src_security_permissions_best_practices",
+      "community": 15,
+      "norm_label": "best practices"
+    },
+    {
+      "label": "Audit logging",
+      "file_type": "document",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "docs_src_security_permissions_audit_logging",
+      "community": 15,
+      "norm_label": "audit logging"
+    },
+    {
+      "label": "skills.md",
+      "file_type": "document",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_skills",
+      "community": 11,
+      "norm_label": "skills.md"
+    },
+    {
+      "label": "Skills",
+      "file_type": "document",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_skills_skills",
+      "community": 11,
+      "norm_label": "skills"
+    },
+    {
+      "label": "How skills work",
+      "file_type": "document",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_src_skills_how_skills_work",
+      "community": 11,
+      "norm_label": "how skills work"
+    },
+    {
+      "label": "Anatomy of a skill",
+      "file_type": "document",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "docs_src_skills_anatomy_of_a_skill",
+      "community": 11,
+      "norm_label": "anatomy of a skill"
+    },
+    {
+      "label": "Frontmatter fields",
+      "file_type": "document",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "docs_src_skills_frontmatter_fields",
+      "community": 11,
+      "norm_label": "frontmatter fields"
+    },
+    {
+      "label": "Built-in skills",
+      "file_type": "document",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "docs_src_skills_built_in_skills",
+      "community": 11,
+      "norm_label": "built-in skills"
+    },
+    {
+      "label": "Creating a custom skill",
+      "file_type": "document",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "docs_src_skills_creating_a_custom_skill",
+      "community": 11,
+      "norm_label": "creating a custom skill"
+    },
+    {
+      "label": "Dynamic skills",
+      "file_type": "document",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "docs_src_skills_dynamic_skills",
+      "community": 11,
+      "norm_label": "dynamic skills"
+    },
+    {
+      "label": "Skill execution flow",
+      "file_type": "document",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "docs_src_skills_skill_execution_flow",
+      "community": 11,
+      "norm_label": "skill execution flow"
+    },
+    {
+      "label": "Tips",
+      "file_type": "document",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L107",
+      "_origin": "ast",
+      "id": "docs_src_skills_tips",
+      "community": 11,
+      "norm_label": "tips"
+    },
+    {
+      "label": "troubleshooting.md",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting",
+      "community": 1,
+      "norm_label": "troubleshooting.md"
+    },
+    {
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_troubleshooting",
+      "community": 1,
+      "norm_label": "troubleshooting"
+    },
+    {
+      "label": "Installation issues",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_installation_issues",
+      "community": 1,
+      "norm_label": "installation issues"
+    },
+    {
+      "label": "\"Bun not found\" or \"command not found: bun\"",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_bun_not_found_or_command_not_found_bun",
+      "community": 1,
+      "norm_label": "\"bun not found\" or \"command not found: bun\""
+    },
+    {
+      "label": "\"npm install -g clew-code\" fails",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_npm_install_g_clew_code_fails",
+      "community": 1,
+      "norm_label": "\"npm install -g clew-code\" fails"
+    },
+    {
+      "label": "Provider / model issues",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_provider_model_issues",
+      "community": 1,
+      "norm_label": "provider / model issues"
+    },
+    {
+      "label": "\"No provider configured\" or \"Provider XYZ returned an error\"",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_no_provider_configured_or_provider_xyz_returned_an_error",
+      "community": 1,
+      "norm_label": "\"no provider configured\" or \"provider xyz returned an error\""
+    },
+    {
+      "label": "\"Model not found\" when switching",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_model_not_found_when_switching",
+      "community": 1,
+      "norm_label": "\"model not found\" when switching"
+    },
+    {
+      "label": "Rate limited (429 errors)",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_rate_limited_429_errors",
+      "community": 1,
+      "norm_label": "rate limited (429 errors)"
+    },
+    {
+      "label": "Tool issues",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_tool_issues",
+      "community": 1,
+      "norm_label": "tool issues"
+    },
+    {
+      "label": "\"Bash tool not available\"",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_bash_tool_not_available",
+      "community": 1,
+      "norm_label": "\"bash tool not available\""
+    },
+    {
+      "label": "\"FileEdit: no match found\"",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_fileedit_no_match_found",
+      "community": 1,
+      "norm_label": "\"fileedit: no match found\""
+    },
+    {
+      "label": "\"Tool X is not allowed\"",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_tool_x_is_not_allowed",
+      "community": 1,
+      "norm_label": "\"tool x is not allowed\""
+    },
+    {
+      "label": "Performance issues",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_performance_issues",
+      "community": 1,
+      "norm_label": "performance issues"
+    },
+    {
+      "label": "\"Clew Code is slow / responses take too long\"",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_clew_code_is_slow_responses_take_too_long",
+      "community": 1,
+      "norm_label": "\"clew code is slow / responses take too long\""
+    },
+    {
+      "label": "\"High memory usage\"",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L90",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_high_memory_usage",
+      "community": 1,
+      "norm_label": "\"high memory usage\""
+    },
+    {
+      "label": "Peer / LAN issues",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_peer_lan_issues",
+      "community": 1,
+      "norm_label": "peer / lan issues"
+    },
+    {
+      "label": "\"No peers found\"",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_no_peers_found",
+      "community": 1,
+      "norm_label": "\"no peers found\""
+    },
+    {
+      "label": "\"Peer connection refused\"",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_peer_connection_refused",
+      "community": 1,
+      "norm_label": "\"peer connection refused\""
+    },
+    {
+      "label": "Common errors",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_common_errors",
+      "community": 1,
+      "norm_label": "common errors"
+    },
+    {
+      "label": "Getting help",
+      "file_type": "document",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L121",
+      "_origin": "ast",
+      "id": "docs_src_troubleshooting_getting_help",
+      "community": 1,
+      "norm_label": "getting help"
+    },
+    {
+      "label": "workspace.md",
+      "file_type": "document",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_workspace",
+      "community": 0,
+      "norm_label": "workspace.md"
+    },
+    {
+      "label": "Workspace Linking",
+      "file_type": "document",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_src_workspace_workspace_linking",
+      "community": 0,
+      "norm_label": "workspace linking"
+    },
+    {
+      "label": "Commands",
+      "file_type": "document",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "docs_src_workspace_commands",
+      "community": 0,
+      "norm_label": "commands"
+    },
+    {
+      "label": "How linking works",
+      "file_type": "document",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "docs_src_workspace_how_linking_works",
+      "community": 0,
+      "norm_label": "how linking works"
+    },
+    {
+      "label": "Data storage",
+      "file_type": "document",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "docs_src_workspace_data_storage",
+      "community": 0,
+      "norm_label": "data storage"
+    },
+    {
+      "label": "Bidirectional linking",
+      "file_type": "document",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "docs_src_workspace_bidirectional_linking",
+      "community": 0,
+      "norm_label": "bidirectional linking"
+    },
+    {
+      "label": "Session lifecycle",
+      "file_type": "document",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "docs_src_workspace_session_lifecycle",
+      "community": 0,
+      "norm_label": "session lifecycle"
+    },
+    {
+      "label": "Use cases",
+      "file_type": "document",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "docs_src_workspace_use_cases",
+      "community": 0,
+      "norm_label": "use cases"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_peerdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_docs_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_docs_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_docs_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_bun",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vitepress",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "package_peerdependencies",
+      "target": "package_peerdependencies_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "tsconfig",
+      "target": "tsconfig_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_allowimportingtsextensions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_allowjs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_lib",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_moduledetection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_moduleresolution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_noemit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_noimplicitoverride",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_nopropertyaccessfromindexsignature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_nouncheckedindexedaccess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_nounusedlocals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_nounusedparameters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_skiplibcheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_strict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_target",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tsconfig.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "tsconfig_compileroptions",
+      "target": "tsconfig_compileroptions_verbatimmodulesyntax",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_cli",
+      "target": "docs_src_cli_clew_cli_docs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_cli",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "docs_src_cli_clew_cli_docs",
+      "target": "docs_src_cli_29_providers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L192",
+      "weight": 1.0,
+      "source": "docs_src_cli_clew_cli_docs",
+      "target": "docs_src_cli_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "docs_src_cli_clew_cli_docs",
+      "target": "docs_src_cli_execution_layers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "docs_src_cli_clew_cli_docs",
+      "target": "docs_src_cli_first_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_src_cli_clew_cli_docs",
+      "target": "docs_src_cli_installation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_src_cli_clew_cli_docs",
+      "target": "docs_src_cli_introduction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "docs_src_cli_clew_cli_docs",
+      "target": "docs_src_cli_lan_peer_swarm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "docs_src_cli_clew_cli_docs",
+      "target": "docs_src_cli_persistent_memory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L130",
+      "weight": 1.0,
+      "source": "docs_src_cli_clew_cli_docs",
+      "target": "docs_src_cli_slash_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_src_cli_installation",
+      "target": "docs_src_cli_from_source_bun",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_src_cli_installation",
+      "target": "docs_src_cli_one_liner_recommended",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_src_cli_installation",
+      "target": "docs_src_cli_with_npm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/cli.md",
+      "source_location": "L201",
+      "weight": 1.0,
+      "source": "docs_src_cli_configuration",
+      "target": "docs_src_cli_example_settings_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_code_intelligence",
+      "target": "docs_src_code_intelligence_code_intelligence_exploration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_code_intelligence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_src_code_intelligence_code_intelligence_exploration",
+      "target": "docs_src_code_intelligence_1_graphify_semantic_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "docs_src_code_intelligence_code_intelligence_exploration",
+      "target": "docs_src_code_intelligence_2_codegraph_call_graph_ast_analyzer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "docs_src_code_intelligence_code_intelligence_exploration",
+      "target": "docs_src_code_intelligence_summary_of_differences",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "docs_src_code_intelligence_1_graphify_semantic_graph",
+      "target": "docs_src_code_intelligence_how_the_ai_agent_uses_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_src_code_intelligence_1_graphify_semantic_graph",
+      "target": "docs_src_code_intelligence_local_cli_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_src_code_intelligence_1_graphify_semantic_graph",
+      "target": "docs_src_code_intelligence_prompt_examples_for_the_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "docs_src_code_intelligence_2_codegraph_call_graph_ast_analyzer",
+      "target": "docs_src_code_intelligence_how_the_ai_agent_uses_codegraph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "docs_src_code_intelligence_2_codegraph_call_graph_ast_analyzer",
+      "target": "docs_src_code_intelligence_local_cli_commands_58",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/code-intelligence.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "docs_src_code_intelligence_2_codegraph_call_graph_ast_analyzer",
+      "target": "docs_src_code_intelligence_prompt_examples_for_the_user_107",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/commands.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_commands",
+      "target": "docs_src_commands_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_concepts_agents_subagents_peers",
+      "target": "docs_src_concepts_agents_subagents_peers_concepts_agents_subagents_and_peers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_concepts_agents_subagents_peers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_src_concepts_agents_subagents_peers_concepts_agents_subagents_and_peers",
+      "target": "docs_src_concepts_agents_subagents_peers_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_src_concepts_agents_subagents_peers_concepts_agents_subagents_and_peers",
+      "target": "docs_src_concepts_agents_subagents_peers_execagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "docs_src_concepts_agents_subagents_peers_concepts_agents_subagents_and_peers",
+      "target": "docs_src_concepts_agents_subagents_peers_lan_peer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "docs_src_concepts_agents_subagents_peers_concepts_agents_subagents_and_peers",
+      "target": "docs_src_concepts_agents_subagents_peers_runtime_concepts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "docs_src_concepts_agents_subagents_peers_concepts_agents_subagents_and_peers",
+      "target": "docs_src_concepts_agents_subagents_peers_subagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_src_concepts_agents_subagents_peers_concepts_agents_subagents_and_peers",
+      "target": "docs_src_concepts_agents_subagents_peers_teammate_swarm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/concepts-agents-subagents-peers.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "docs_src_concepts_agents_subagents_peers_concepts_agents_subagents_and_peers",
+      "target": "docs_src_concepts_agents_subagents_peers_typical_flows",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_configuration",
+      "target": "docs_src_configuration_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "docs_src_configuration",
+      "target": "docs_src_providers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "docs_src_configuration_configuration",
+      "target": "docs_src_configuration_environment_variables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "docs_src_configuration_configuration",
+      "target": "docs_src_configuration_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "docs_src_configuration_configuration",
+      "target": "docs_src_configuration_per_project_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "docs_src_configuration_configuration",
+      "target": "docs_src_configuration_permission_modes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_src_configuration_configuration",
+      "target": "docs_src_configuration_settings_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "docs_src_configuration_configuration",
+      "target": "docs_src_configuration_theme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "docs_src_configuration_settings_files",
+      "target": "docs_src_configuration_example_settings_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "docs_src_configuration_settings_files",
+      "target": "docs_src_configuration_local_overrides",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "docs_src_configuration_environment_variables",
+      "target": "docs_src_configuration_clew_code_settings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "docs_src_configuration_environment_variables",
+      "target": "docs_src_configuration_provider_api_keys",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/configuration.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "docs_src_configuration_hooks",
+      "target": "docs_src_configuration_example_hook",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/contributing.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_contributing",
+      "target": "docs_src_contributing_contributing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_contributing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/contributing.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "docs_src_contributing_contributing",
+      "target": "docs_src_contributing_good_first_issues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/contributing.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "docs_src_contributing_contributing",
+      "target": "docs_src_contributing_release",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/development.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_development",
+      "target": "docs_src_development_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/development.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "docs_src_development_development",
+      "target": "docs_src_development_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/development.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "docs_src_development_development",
+      "target": "docs_src_development_before_committing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/development.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_src_development_development",
+      "target": "docs_src_development_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/development.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "docs_src_development_development",
+      "target": "docs_src_development_project_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/features.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_features",
+      "target": "docs_src_features_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/features.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_src_features_features",
+      "target": "docs_src_features_29_providers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/features.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_src_features_features",
+      "target": "docs_src_features_76_built_in_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/features.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_src_features_features",
+      "target": "docs_src_features_8_permission_modes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/features.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_src_features_features",
+      "target": "docs_src_features_autonomous_agent_loop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/features.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_src_features_features",
+      "target": "docs_src_features_goal_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/features.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_src_features_features",
+      "target": "docs_src_features_max_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/features.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "docs_src_features_features",
+      "target": "docs_src_features_mcp_model_context_protocol",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/features.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_src_features_features",
+      "target": "docs_src_features_memory_system_mimo_inspired",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/features.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_src_features_features",
+      "target": "docs_src_features_peer_to_peer_lan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/features.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "docs_src_features_features",
+      "target": "docs_src_features_project_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/features.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "docs_src_features_features",
+      "target": "docs_src_features_skills_plugins_hooks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/features.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_src_features_features",
+      "target": "docs_src_features_structured_checkpoints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/features.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_src_features_features",
+      "target": "docs_src_features_workspace_linking",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_index_clew_code_docs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_installation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_mcp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_memory_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_peer_to_peer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_plugins",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_profiles_coding_vs_personal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_project_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_providers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_quick_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_security_permissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_skills",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_src_index",
+      "target": "docs_src_workspace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_src_index_clew_code_docs",
+      "target": "docs_src_index_all_documentation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_src_index_clew_code_docs",
+      "target": "docs_src_index_getting_started",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_src_index_clew_code_docs",
+      "target": "docs_src_index_key_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "docs_src_index_clew_code_docs",
+      "target": "docs_src_index_links",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_src_index_all_documentation",
+      "target": "docs_src_index_concepts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "docs_src_index_all_documentation",
+      "target": "docs_src_index_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "docs_src_index_all_documentation",
+      "target": "docs_src_index_extending",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/index.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "docs_src_index_all_documentation",
+      "target": "docs_src_index_reference",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/installation.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_installation",
+      "target": "docs_src_installation_installation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/installation.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "docs_src_installation",
+      "target": "docs_src_providers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/installation.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_src_installation_installation",
+      "target": "docs_src_installation_build_from_source",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/installation.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_src_installation_installation",
+      "target": "docs_src_installation_one_liner_recommended",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/installation.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_src_installation_installation",
+      "target": "docs_src_installation_with_npm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_mcp",
+      "target": "docs_src_mcp_mcp_model_context_protocol",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "docs_src_mcp_mcp_model_context_protocol",
+      "target": "docs_src_mcp_configuring_mcp_servers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_src_mcp_mcp_model_context_protocol",
+      "target": "docs_src_mcp_how_mcp_works",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "docs_src_mcp_mcp_model_context_protocol",
+      "target": "docs_src_mcp_managing_mcp_servers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "docs_src_mcp_mcp_model_context_protocol",
+      "target": "docs_src_mcp_mcp_tools_in_action",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "docs_src_mcp_mcp_model_context_protocol",
+      "target": "docs_src_mcp_security",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_src_mcp_mcp_model_context_protocol",
+      "target": "docs_src_mcp_supported_transports",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "docs_src_mcp_mcp_model_context_protocol",
+      "target": "docs_src_mcp_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "docs_src_mcp_configuring_mcp_servers",
+      "target": "docs_src_mcp_sse_http_servers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "docs_src_mcp_configuring_mcp_servers",
+      "target": "docs_src_mcp_stdio_servers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "docs_src_mcp_configuring_mcp_servers",
+      "target": "docs_src_mcp_via_mcp_json_project_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "docs_src_mcp_configuring_mcp_servers",
+      "target": "docs_src_mcp_via_settings_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "docs_src_mcp_managing_mcp_servers",
+      "target": "docs_src_mcp_in_session_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/mcp.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "docs_src_mcp_managing_mcp_servers",
+      "target": "docs_src_mcp_startup_behaviour",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/memory-system.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_memory_system",
+      "target": "docs_src_memory_system_memory_system",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/memory-system.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "docs_src_memory_system_memory_system",
+      "target": "docs_src_memory_system_auto_consolidation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/memory-system.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "docs_src_memory_system_memory_system",
+      "target": "docs_src_memory_system_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/memory-system.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_src_memory_system_memory_system",
+      "target": "docs_src_memory_system_core_concepts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/memory-system.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "docs_src_memory_system_memory_system",
+      "target": "docs_src_memory_system_cross_session",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/memory-system.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "docs_src_memory_system_memory_system",
+      "target": "docs_src_memory_system_memory_hierarchy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_peer_to_peer",
+      "target": "docs_src_peer_to_peer_peer_to_peer_lan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "docs_src_peer_to_peer_peer_to_peer_lan",
+      "target": "docs_src_peer_to_peer_15_ai_tools",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_src_peer_to_peer_peer_to_peer_lan",
+      "target": "docs_src_peer_to_peer_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_src_peer_to_peer_peer_to_peer_lan",
+      "target": "docs_src_peer_to_peer_discovery",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "docs_src_peer_to_peer_peer_to_peer_lan",
+      "target": "docs_src_peer_to_peer_message_broker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "docs_src_peer_to_peer_peer_to_peer_lan",
+      "target": "docs_src_peer_to_peer_peer_memory_sync",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "docs_src_peer_to_peer_peer_to_peer_lan",
+      "target": "docs_src_peer_to_peer_swarm_execution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_src_peer_to_peer_swarm_execution",
+      "target": "docs_src_peer_to_peer_concurrency",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "docs_src_peer_to_peer_swarm_execution",
+      "target": "docs_src_peer_to_peer_task_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "docs_src_peer_to_peer_swarm_execution",
+      "target": "docs_src_peer_to_peer_task_persistence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/peer-to-peer.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "docs_src_peer_to_peer_swarm_execution",
+      "target": "docs_src_peer_to_peer_worktree_isolation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_plugins",
+      "target": "docs_src_plugins_plugins",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "docs_src_plugins_plugins",
+      "target": "docs_src_plugins_creating_a_plugin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_src_plugins_plugins",
+      "target": "docs_src_plugins_hook_types",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_src_plugins_plugins",
+      "target": "docs_src_plugins_installing_plugins",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "docs_src_plugins_plugins",
+      "target": "docs_src_plugins_marketplace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "docs_src_plugins_plugins",
+      "target": "docs_src_plugins_plugin_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_src_plugins_plugins",
+      "target": "docs_src_plugins_plugin_lifecycle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "docs_src_plugins_plugins",
+      "target": "docs_src_plugins_plugin_manifest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "docs_src_plugins_plugins",
+      "target": "docs_src_plugins_security",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "docs_src_plugins_installing_plugins",
+      "target": "docs_src_plugins_from_marketplace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/plugins.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "docs_src_plugins_installing_plugins",
+      "target": "docs_src_plugins_local_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/profiles-coding-vs-personal.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_profiles_coding_vs_personal",
+      "target": "docs_src_profiles_coding_vs_personal_profiles_coding_vs_personal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/profiles-coding-vs-personal.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_src_profiles_coding_vs_personal_profiles_coding_vs_personal",
+      "target": "docs_src_profiles_coding_vs_personal_coding_profile_default",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/profiles-coding-vs-personal.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_src_profiles_coding_vs_personal_profiles_coding_vs_personal",
+      "target": "docs_src_profiles_coding_vs_personal_personal_profile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/profiles-coding-vs-personal.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "docs_src_profiles_coding_vs_personal_personal_profile",
+      "target": "docs_src_profiles_coding_vs_personal_additional_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/profiles-coding-vs-personal.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "docs_src_profiles_coding_vs_personal_personal_profile",
+      "target": "docs_src_profiles_coding_vs_personal_codex_execagent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/profiles-coding-vs-personal.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "docs_src_profiles_coding_vs_personal_personal_profile",
+      "target": "docs_src_profiles_coding_vs_personal_how_delegation_works",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_project_rules",
+      "target": "docs_src_project_rules_project_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "docs_src_project_rules_project_rules",
+      "target": "docs_src_project_rules_ai_tool",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "docs_src_project_rules_project_rules",
+      "target": "docs_src_project_rules_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "docs_src_project_rules_project_rules",
+      "target": "docs_src_project_rules_file_location",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_src_project_rules_project_rules",
+      "target": "docs_src_project_rules_how_it_works",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "docs_src_project_rules_project_rules",
+      "target": "docs_src_project_rules_status_indicator",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/project-rules.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_src_project_rules_project_rules",
+      "target": "docs_src_project_rules_toggling",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/providers.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_providers",
+      "target": "docs_src_providers_providers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/providers.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_src_providers_providers",
+      "target": "docs_src_providers_all_providers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/providers.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "docs_src_providers_providers",
+      "target": "docs_src_providers_provider_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/providers.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_src_providers_providers",
+      "target": "docs_src_providers_quick_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/quick-start.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_quick_start",
+      "target": "docs_src_quick_start_quick_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/quick-start.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_src_quick_start_quick_start",
+      "target": "docs_src_quick_start_one_shot_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/quick-start.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "docs_src_quick_start_quick_start",
+      "target": "docs_src_quick_start_resume_last_session",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/quick-start.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "docs_src_quick_start_quick_start",
+      "target": "docs_src_quick_start_useful_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_security_permissions",
+      "target": "docs_src_security_permissions_security_permissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "docs_src_security_permissions_security_permissions",
+      "target": "docs_src_security_permissions_audit_logging",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "docs_src_security_permissions_security_permissions",
+      "target": "docs_src_security_permissions_best_practices",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "docs_src_security_permissions_security_permissions",
+      "target": "docs_src_security_permissions_guardian_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_src_security_permissions_security_permissions",
+      "target": "docs_src_security_permissions_permission_modes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "docs_src_security_permissions_security_permissions",
+      "target": "docs_src_security_permissions_safety_gates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/security-permissions.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "docs_src_security_permissions_security_permissions",
+      "target": "docs_src_security_permissions_tool_permissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_skills",
+      "target": "docs_src_skills_skills",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "docs_src_skills_skills",
+      "target": "docs_src_skills_anatomy_of_a_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "docs_src_skills_skills",
+      "target": "docs_src_skills_built_in_skills",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "docs_src_skills_skills",
+      "target": "docs_src_skills_creating_a_custom_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "docs_src_skills_skills",
+      "target": "docs_src_skills_dynamic_skills",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_src_skills_skills",
+      "target": "docs_src_skills_how_skills_work",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "docs_src_skills_skills",
+      "target": "docs_src_skills_skill_execution_flow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "docs_src_skills_skills",
+      "target": "docs_src_skills_tips",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/skills.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "docs_src_skills_anatomy_of_a_skill",
+      "target": "docs_src_skills_frontmatter_fields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting",
+      "target": "docs_src_troubleshooting_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_troubleshooting",
+      "target": "docs_src_troubleshooting_common_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_troubleshooting",
+      "target": "docs_src_troubleshooting_getting_help",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_troubleshooting",
+      "target": "docs_src_troubleshooting_installation_issues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_troubleshooting",
+      "target": "docs_src_troubleshooting_peer_lan_issues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_troubleshooting",
+      "target": "docs_src_troubleshooting_performance_issues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_troubleshooting",
+      "target": "docs_src_troubleshooting_provider_model_issues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_troubleshooting",
+      "target": "docs_src_troubleshooting_tool_issues",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_installation_issues",
+      "target": "docs_src_troubleshooting_bun_not_found_or_command_not_found_bun",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_installation_issues",
+      "target": "docs_src_troubleshooting_npm_install_g_clew_code_fails",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_provider_model_issues",
+      "target": "docs_src_troubleshooting_model_not_found_when_switching",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_provider_model_issues",
+      "target": "docs_src_troubleshooting_no_provider_configured_or_provider_xyz_returned_an_error",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_provider_model_issues",
+      "target": "docs_src_troubleshooting_rate_limited_429_errors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_tool_issues",
+      "target": "docs_src_troubleshooting_bash_tool_not_available",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_tool_issues",
+      "target": "docs_src_troubleshooting_fileedit_no_match_found",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_tool_issues",
+      "target": "docs_src_troubleshooting_tool_x_is_not_allowed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_performance_issues",
+      "target": "docs_src_troubleshooting_clew_code_is_slow_responses_take_too_long",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_performance_issues",
+      "target": "docs_src_troubleshooting_high_memory_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_peer_lan_issues",
+      "target": "docs_src_troubleshooting_no_peers_found",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/troubleshooting.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "docs_src_troubleshooting_peer_lan_issues",
+      "target": "docs_src_troubleshooting_peer_connection_refused",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_src_workspace",
+      "target": "docs_src_workspace_workspace_linking",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "docs_src_workspace_workspace_linking",
+      "target": "docs_src_workspace_bidirectional_linking",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_src_workspace_workspace_linking",
+      "target": "docs_src_workspace_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "docs_src_workspace_workspace_linking",
+      "target": "docs_src_workspace_data_storage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "docs_src_workspace_workspace_linking",
+      "target": "docs_src_workspace_how_linking_works",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "docs_src_workspace_workspace_linking",
+      "target": "docs_src_workspace_session_lifecycle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs-src/workspace.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "docs_src_workspace_workspace_linking",
+      "target": "docs_src_workspace_use_cases",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "7e33e95d96612102462f8c66116ad59374e5456b"
+}

@@ -44,18 +44,19 @@ bun install && bun run build
 
 ### "Model not found" when switching
 
-Run `/status` to see available models. If the model list is empty, the provider may not support model listing. Try specifying the full model name:
+Run `/status` to see available models. If the model list is empty, the provider may not support model listing. Try specifying the full provider/model name:
 
 ```sh
 > /model openai/gpt-4o
 > /model deepseek/deepseek-coder
+> /model opengateway/xiaomi/mimo-v2.5-pro
 ```
 
 ### Rate limited (429 errors)
 
 - OpenAI: New keys are rate-limited for the first few minutes. Wait and retry.
 - Most providers have per-minute or per-day limits. Check your provider dashboard.
-- Try a different provider: `/model groq/llama-3.3-70b`
+- Try a different provider: `/model groq/llama-3.3-70b` or `/model opengateway/auto`
 
 ## Tool issues
 

@@ -69,6 +69,9 @@ clew --resume last
 
 # Start a plan-mode session (bypasses prompt confirmations)
 clew --plan
+
+# Pass a one-shot prompt without entering REPL
+clew -p "summarize CHANGELOG.md"
 ```
 
 ---
@@ -83,8 +86,8 @@ Clew Code is provider-agnostic, supporting 29 native LLM engines. Setup your API
 | Google Gemini / Code Assist | `GOOGLE_API_KEY` |
 | DeepSeek | `DEEPSEEK_API_KEY` |
 | Groq | `GROQ_API_KEY` |
+| OpenGateway | `OPENGATEWAY_API_KEY` |
 | Ollama (Local) | `OLLAMA_HOST` (defaults to `http://localhost:11434`) |
-| Sakana AI | `SAKANA_API_KEY` |
 | Clew Gateway | `CLEW_GATEWAY_KEY` |
 
 Switch between providers or models at any time inside a session using the `/model` slash command.
@@ -114,12 +117,13 @@ With zero configuration, Clew Code instances discover each other on the local ne
 
 ## Execution Layers
 
-Tasks are distributed across four isolated layers depending on your workflow:
+Tasks are distributed across several layers depending on your workflow:
 
-*   **Agent:** The root agent session coordinating permissions, UI, and active memory context.
+*   **Agent:** The root agent session coordinating permissions, UI, and active memory context. Custom agents live in `.clew/agents/*.md`.
 *   **Subagent:** Focus-oriented, short-lived child processes spawned in the background (typically read-only) to solve specific sub-tasks without cluttering your main session.
 *   **Peer:** Network-connected nodes coordinating LAN swarms.
 *   **ExecAgent:** External CLI/Codex process delegation for running separate specialized model loops (formerly "Process Peer").
+*   **Background Agent:** Persistent task queue with lease-based concurrency, cron scheduling, and daemon mode.
 
 ---
 
@@ -135,7 +139,7 @@ Control the session directly using terminal slash commands:
 | `/context` | Active context usage |
 | `/compact` | Compress conversation history + extract memories |
 | `/goal` | Track and verify overall task completion |
-| `/mcp` | Model Context Protocol server management |
+| `/mcp` | MCP server management |
 | `/code-review` | Review changed files for bugs |
 | `/plugin` | Plugin and hook management |
 | `/agent` | Background agent dispatch |
@@ -165,6 +169,7 @@ Control the session directly using terminal slash commands:
 | `/plan` | Plan mode |
 | `/vim` | Vim keybindings |
 | `/research` | Research dossier management |
+| `/deep-research` | Deep research with multi-source synthesis |
 | `/workflow` | Multi-step workflow automation |
 | `/rewind` | Undo last response |
 | `/upgrade` | Check for updates |
@@ -186,10 +191,12 @@ Profile is set via `settings.json` (`"profile": "personal"`) — no slash comman
 
 ## Configuration
 
-Settings files are stored in your home directory under `~/.clew/`:
+Settings files are stored in `.clew/` at the project root:
 
-*   `~/.clew/settings.json` — Shared global configurations, default models, and UI preferences.
-*   `~/.clew/settings.local.json` — Local overrides (private config and custom developer setups).
+*   `.clew/settings.json` — Shared project settings (checked into version control)
+*   `.clew/settings.local.json` — Private/local overrides (gitignored, never commit)
+
+Also supports ~/.clew/ for global defaults.
 
 ### Example `settings.json`
 
@@ -203,17 +210,12 @@ Settings files are stored in your home directory under `~/.clew/`:
     "writeFiles": false,
     "runCommands": false
   },
-  "mcp": {
-    "servers": {
-      "filesystem": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "@modelcontextprotocol/server-filesystem",
-          "C:/Users/Admin/Projects"
-        ]
-      }
-    }
+  "hooks": {
+    "PostToolUse": "echo 'tool used: $TOOL_NAME'"
+  },
+  "permissions": {
+    "allow": ["Bash", "Read", "Edit", "Write", "Glob", "Grep"],
+    "deny": []
   }
 }
 ```

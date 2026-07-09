@@ -40,6 +40,7 @@ Clew Code has **100+ slash commands**. Here are the most notable:
 | `/plan` | Plan mode |
 | `/vim` | Vim keybindings |
 | `/research` | Research dossier management |
+| `/deep-research` | Deep research with multi-source synthesis |
 | `/workflow` | Multi-step workflow automation |
 | `/rewind` | Undo last response |
 | `/upgrade` | Check for updates |
@@ -54,5 +55,21 @@ Clew Code has **100+ slash commands**. Here are the most notable:
 | `/export` | Export conversation |
 | `/sandbox-toggle` | Toggle sandbox mode |
 | `/insights` | Generate session analysis report |
+| `/add-dir` | Add a directory to working set |
+| `/config` | View/edit configuration |
+| `/copy` | Copy session content |
+| `/desktop` | Desktop integration |
+| `/explorer` | File explorer |
+| `/help` | Help and skill listing |
+| `/keybindings` | View keyboard shortcuts |
+| `/login` | Login via gateway |
+| `/logout` | Logout / clear credentials |
+| `/provider-select` | Provider selection UI |
+| `/recap` | Session recap |
+| `/reload-plugins` | Reload all plugins |
+| `/rename` | Rename session |
+| `/resume` | Resume a past session |
+| `/thinkback-play` | Replay agent thoughts |
+| `/usage` | Token usage statistics |
 
 Profile is set via `settings.json` (field: `profile`, values: `coding` / `personal`) — no slash command.

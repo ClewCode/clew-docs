@@ -11,6 +11,9 @@ clew
 # Or try DeepSeek
 > /model deepseek-v4-pro
 
+# Try OpenGateway (OpenAI-compatible gateway)
+> /model opengateway/xiaomi/mimo-v2.5-pro
+
 # Or go local with Ollama
 > /model ollama/llama3.3
 ```
@@ -28,6 +31,8 @@ clew
 | `/compact` | Compress context + extract memories |
 | `/memory dashboard` | Memory system status |
 | `/workspace link <path>` | Link another project repo |
+| `/rule` | View project rules |
+| `/code-review` | Review changed code for bugs |
 
 Profile is set via `settings.json` (`"profile": "personal"`) — no slash command.
 

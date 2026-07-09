@@ -8,7 +8,7 @@ Clew Code supports the **Model Context Protocol (MCP)**, an open standard for co
 Clew Code (MCP client) ↔ MCP transport ↔ MCP server (tools, resources, prompts)
 ```
 
-MCP servers are separate processes (or HTTP endpoints) that the AI calls through Clew Code. They are **not plugins** — they run as independent processes and communicate via a standardised protocol.
+MCP servers are separate processes (or HTTP endpoints) that the AI calls through Clew Code.
 
 ## Supported transports
 
@@ -17,10 +17,36 @@ MCP servers are separate processes (or HTTP endpoints) that the AI calls through
 | **stdio** | Spawns a child process and communicates via stdin/stdout | Local servers (Python scripts, Node CLIs, compiled binaries) |
 | **SSE** (Server-Sent Events) | HTTP-based connection to a remote server | Remote services, cloud-hosted tools |
 | **DirectConnect** | In-process MCP server loaded as a plugin | Low-latency, tightly coupled tools |
+| **StreamableHTTP** | Streaming HTTP transport for real-time results | Chat-like MCP interactions |
 
 ## Configuring MCP servers
 
-MCP servers are configured in `.clew/settings.json` or `.clew/settings.local.json` under the `mcpServers` key:
+MCP servers can be configured in two places:
+
+### Via `.mcp.json` (project root)
+
+```json
+{
+  "mcpServers": {
+    "codegraph": {
+      "command": "codegraph",
+      "args": ["serve", "--mcp"]
+    },
+    "clew-bus": {
+      "type": "http",
+      "url": "http://127.0.0.1:7333/mcp"
+    },
+    "clew-peer": {
+      "type": "http",
+      "url": "http://127.0.0.1:7334/mcp"
+    }
+  }
+}
+```
+
+### Via settings files
+
+In `.clew/settings.json` or `.clew/settings.local.json` under the `mcpServers` key:
 
 ```json
 {
@@ -29,13 +55,6 @@ MCP servers are configured in `.clew/settings.json` or `.clew/settings.local.jso
       "type": "stdio",
       "command": "npx",
       "args": ["@playwright/mcp"]
-    },
-    "my-api": {
-      "type": "sse",
-      "url": "https://api.example.com/mcp",
-      "headers": {
-        "Authorization": "Bearer sk-..."
-      }
     }
   }
 }
@@ -60,7 +79,7 @@ Run a local command as an MCP server:
 }
 ```
 
-### SSE (HTTP) servers
+### SSE / HTTP servers
 
 Connect to a remote MCP endpoint:
 
@@ -77,17 +96,6 @@ Connect to a remote MCP endpoint:
 
 Some SSE servers require OAuth authentication — Clew Code handles the OAuth flow automatically.
 
-## Built-in MCP servers
-
-Clew Code ships with several MCP servers that are enabled by default:
-
-| Server | Transport | Purpose |
-|---|---|---|
-| `codegraph` | stdio | Code intelligence — symbol search, callers, relationships |
-| `tinyfish` | http | Web search and page fetching |
-| `context7` | http | Library/framework documentation |
-| `playwright` | stdio | Browser automation (optional) |
-
 ## Managing MCP servers
 
 ### In-session commands
@@ -103,7 +111,7 @@ Clew Code ships with several MCP servers that are enabled by default:
 
 MCP servers are started automatically at session launch:
 
-1. Clew Code reads `mcpServers` from `settings.json` and `settings.local.json`
+1. Clew Code reads `mcpServers` from `.mcp.json`, `settings.json`, and `settings.local.json`
 2. Each server is spawned with its configured transport and arguments
 3. Connection is established and capabilities (tools, resources, prompts) are advertised
 4. If a server fails to connect, Clew Code retries (up to 4 attempts for stdio, 1 for HTTP)

@@ -1,6 +1,6 @@
 # Providers
 
-Clew Code supports **27 providers**. Set the corresponding environment variable before starting.
+Clew Code supports **29 providers**. Set the corresponding environment variable before starting.
 
 ## Quick setup
 
@@ -11,7 +11,7 @@ export DEEPSEEK_API_KEY=...
 export GROQ_API_KEY=...
 export OPENROUTER_API_KEY=...
 export OLLAMA_HOST=http://localhost:11434
-export GEMINI_API_KEY=...
+export OPENGATEWAY_API_KEY=ogw_live_...
 ```
 
 ## All providers
@@ -34,6 +34,7 @@ export GEMINI_API_KEY=...
 | OpenRouter | `OPENROUTER_API_KEY` |
 | OpenCode | `OPENCODE_API_KEY` |
 | OpenCode Go | `OPENCODE_GO_API_KEY` |
+| OpenGateway | `OPENGATEWAY_API_KEY` |
 | KiloCode | `KILOCODE_API_KEY` |
 | Ollama (local) | `OLLAMA_API_KEY` |
 | Together AI | `TOGETHER_API_KEY` |
@@ -44,6 +45,16 @@ export GEMINI_API_KEY=...
 | Poe | `POE_API_KEY` |
 | DigitalOcean | `DIGITALOCEAN_API_KEY` |
 | Cline | `CLINE_API_KEY` |
+| Sakana AI | `SAKANA_API_KEY` |
 | Custom | `CUSTOM_API_KEY` |
 
 Switch mid-session with `/model` or `/provider`.
+
+## Provider features
+
+All providers support chat and streaming. Provider-specific capabilities:
+- **Tool calling**: OpenAI, DeepSeek, Groq, Anthropic, OpenGateway, Together, Fireworks, OpenRouter, and most OpenAI-compatible providers
+- **Vision**: OpenAI, Google Gemini, Groq, OpenGateway (some models), Moonshot, Zhipu
+- **Reasoning**: DeepSeek, OpenGateway (MiMo V2.5 Pro, GLM 5.2, Nemotron 3), xAI
+- **Free models**: OpenGateway (Tencent HY3, Nemotron 3 Ultra), Groq
+- **Local**: Ollama

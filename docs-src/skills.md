@@ -51,15 +51,21 @@ Clew Code ships with these skills:
 
 | Skill | Purpose |
 |---|---|
-| `code-review` | Review changed code for correctness bugs (low/medium/high effort) |
+| `code-review` | Review changed code for correctness bugs (low/medium/high effort). Pass `--fix` to apply changes, `--comment` for inline PR comments. |
 | `commit` | Stage, commit, and push with conventional commit messages |
-| `delegate` | Delegate coding work to a LAN peer or local Codex worker. In personal profile, this is the default execution path — the AI plans, delegates, then reviews results. Uses ExecAgent to spawn a Codex (or fallback) worker with a structured prompt (goal, scope, constraints, validation). |
+| `delegate` | Delegate coding work to a LAN peer or local Codex/OpenCode/Claude Code worker via ExecAgent |
 | `loop` | Run a prompt on a recurring interval (e.g., `/loop 5m /status`) |
+| `loopmd` | Design and run self-verifying autonomous loops via LOOP.md |
 | `graphify` | Convert any input to a knowledge graph |
 | `precommit` | Pre-commit verification — typecheck, lint, tests |
 | `verify` | Full verification — typecheck, lint (CI mode), tests |
-| `update-config` | Configure settings via settings.json |
+| `gate` | Run the full clew-code pre-push gate (lint + typecheck + tests) |
+| `clew-verify` | End-to-end smoke test: shadow check + static gate + tests + CLI smoke test |
+| `clew-release` | Full release checklist: bump version, update CHANGELOG, CI gate, tag |
 | `scrapling` | Web scraping with Scrapling framework |
+| `update-config` | Configure settings via settings.json |
+| `frontend-design` | Guidance for distinctive visual design |
+| `stripe:*` | Stripe integration helpers (explain-error, test-cards, connect, directory, etc.) |
 
 ## Creating a custom skill
 

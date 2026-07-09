@@ -2,7 +2,7 @@
 
 ## 29 Providers
 
-OpenAI, Anthropic, Google Gemini & Code Assist, DeepSeek, Groq, xAI (Grok), Mistral, Cohere, Perplexity, Cerebras, Moonshot (Kimi), Zhipu (GLM), NVIDIA NIM, OpenRouter, OpenCode, OpenCode Go, KiloCode, Ollama (local), Together AI, Fireworks AI, Deep Infra, SiliconFlow, Hugging Face, Poe, DigitalOcean, Cline, Sakana AI, Clew Gateway, custom. Switch mid-session with `/model`.
+OpenAI, Anthropic, Google Gemini & Code Assist, DeepSeek, Groq, xAI (Grok), Mistral, Cohere, Perplexity, Cerebras, Moonshot (Kimi), Zhipu (GLM), NVIDIA NIM, OpenRouter, OpenCode, OpenCode Go, OpenGateway, KiloCode, Ollama (local), Together AI, Fireworks AI, Deep Infra, SiliconFlow, Hugging Face, Poe, DigitalOcean, Cline, Sakana AI, Clew Gateway, custom. Switch mid-session with `/model`.
 
 ## Memory System (MiMo-inspired)
 
@@ -16,9 +16,9 @@ Find other Clew instances via file registry or UDP multicast. Assign tasks, set 
 
 File-backed persistent task queue, lease-based concurrency, exponential backoff retry, dead-letter management. Cron scheduler. Max 3 concurrent workers.
 
-## 75+ Built-in Tools
+## 76+ Built-in Tools
 
-Read, Write, Edit, Glob, Grep, Bash, WebSearch, WebFetch, Browser (Playwright), NotebookEdit, JsonPath, ReadArtifact, peer tools (18+ LAN tools), MCP tools, ExecAgent, MemoryFeedback, SessionSearch, ProjectRule, plan mode, multi-pass compaction.
+Read, Write, Edit, Glob, Grep, Bash, WebSearch, WebFetch, Browser (Playwright), NotebookEdit, JsonPath, ReadArtifact, peer tools (18+ LAN tools), MCP tools, ExecAgent, MemoryFeedback, SessionSearch, ProjectRule, Goal, Monitor, LSP, plan mode, multi-pass compaction.
 
 ## Project Rules
 
@@ -50,4 +50,4 @@ Extend without touching source. Skills via SKILL.md, plugins with manifest, hook
 
 ## 8 Permission Modes
 
-`default`, `ask`, `plan`, `auto`, `acceptEdits`, `bypassPermissions`, `dontAsk`, `guardian`.
+`default`, `ask`, `plan`, `auto`, `acceptEdits`, `bypassPermissions`, `dontAsk`, `guardian`. Switch with `/profile` or set in `settings.json`.

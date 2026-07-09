@@ -22,7 +22,7 @@ cd my-project
 clew
 ```
 
-Requires Bun 1.3+, Node.js 18+, Git, and one provider API key.
+Requires Bun 1.3+, Node.js 18+, Git, and one provider API key (see [Providers](providers)).
 
 ## Build from source
 

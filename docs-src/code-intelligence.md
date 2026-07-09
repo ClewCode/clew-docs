@@ -53,7 +53,7 @@ You can prompt the agent to use `graphify` directly:
 
 ## 2. CodeGraph (Call Graph & AST Analyzer)
 
-`CodeGraph` (also known as `codegg` / `codegraph`) compiles a deep SQL-based index of your repository under `.codegraph/codegraph.db`. It maps every import, class, method, variable, caller, and callee to resolve dependencies and caller hierarchies.
+`CodeGraph` compiles a deep SQL-based index of your repository under `.codegraph/codegraph.db`. It maps every import, class, method, variable, caller, and callee to resolve dependencies and caller hierarchies.
 
 ### Local CLI Commands
 

@@ -48,6 +48,8 @@ When you link A → B:
 
 Returning to either project loads the full group automatically.
 
+Linked projects appear as working directories in the permission system with a `🔗 linked` badge.
+
 ## Session lifecycle
 
 - **On linking**: the target is immediately added as a working directory so tools can access it

@@ -37,8 +37,10 @@ The built-in `delegate` skill also supports a local Codex worker via the `ExecAg
 
 ExecAgent (formerly "ProcessDelegate") supports:
 - **Codex** — primary local worker (auto-detected)
-- **OpenCode**, **Claude Code**, **Code** CLI — fallback providers
-- **`exec` mode** — terminal-style output (default on Windows)
+- **OpenCode** — uses `opencode run` with `--dir` and `--format default` flags
+- **Claude Code** — uses `claude -p` with `--output-format text --max-turns 8 --permission-mode dontAsk`
+- **Code** CLI — same as Claude Code
+- **`exec` mode** — terminal-style output (default on Windows, no pty dependency)
 - **`pty` mode** — pseudo-terminal for interactive workflows
 - **Session resume** — pass a `sessionId` to continue a multi-turn conversation
 
@@ -49,5 +51,6 @@ ExecAgent (formerly "ProcessDelegate") supports:
 - **Scheduling** — uses `/cron` for recurring tasks, `/loop` for polling
 - **Daemon mode** — background task queue, cron, memory maintenance
 - **Parallel delegation** — independent sub-tasks run concurrently via sub-agents or peers
+- **Agent room** — `bun run agent-room "<topic>"` for multi-agent conversations (round-robin / free / parallel modes)
 
 Profile and last-used permission mode are saved between sessions.
